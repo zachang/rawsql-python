@@ -43,6 +43,6 @@ def create_product_type_table():
             primary key(ProductTypeID))
         """
     create_table(db_name, "ProductType", sql)
-
+    
 create_product_type_table()
 create_product_table()
